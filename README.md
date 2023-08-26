@@ -32,3 +32,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+# I have removed the endDate and startDate from the Job.tsx file and here is the code
+ `*<div className="flex flex-col items-start">*`
+                                `<h3 className="text-xl font-bold">{data.name}</h3>`
+                                `<p>{data.jobTitle}</p>`
+                                `<small className="text-sm text-zinc-500 mt-2 tracking-widest uppercase">`
+                                 `   {data.startDate.toString()} - {data.endDate.toString()}`
+                                `</small>`
+                                `<p className="text-base text-zinc-400 my-4">{data.description}</p>`
+                            `</div>`
+# I have removed the endDate and startDate from the sanity.query.ts file and here is the code
+    startDate,
+    endDate,
+
+# After adding this code back please ensure you adjust everything in the event of an error
